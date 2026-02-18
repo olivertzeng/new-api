@@ -4,7 +4,7 @@
 
 # New API
 
-🍥 **新一代大模型網關與AI資產管理系統**
+🍥 **新一代大模型閘道與AI資產管理系統**
 
 <p align="center">
   繁體中文 |
@@ -17,14 +17,14 @@
 <p align="center">
   <a href="https://raw.githubusercontent.com/Calcium-Ion/new-api/main/LICENSE">
     <img src="https://img.shields.io/github/license/Calcium-Ion/new-api?color=brightgreen" alt="license">
-  </a>
-  <a href="https://github.com/Calcium-Ion/new-api/releases/latest">
+  </a><!--
+  --><a href="https://github.com/Calcium-Ion/new-api/releases/latest">
     <img src="https://img.shields.io/github/v/release/Calcium-Ion/new-api?color=brightgreen&include_prereleases" alt="release">
-  </a>
-  <a href="https://hub.docker.com/r/CalciumIon/new-api">
+  </a><!--
+  --><a href="https://hub.docker.com/r/CalciumIon/new-api">
     <img src="https://img.shields.io/badge/docker-dockerHub-blue" alt="docker">
-  </a>
-  <a href="https://goreportcard.com/report/github.com/Calcium-Ion/new-api">
+  </a><!--
+  --><a href="https://goreportcard.com/report/github.com/Calcium-Ion/new-api">
     <img src="https://goreportcard.com/badge/github.com/Calcium-Ion/new-api" alt="GoReportCard">
   </a>
 </p>
@@ -36,8 +36,8 @@
   <br>
   <a href="https://hellogithub.com/repository/QuantumNous/new-api" target="_blank">
     <img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=539ac4217e69431684ad4a0bab768811&claim_uid=tbFPfKIDHpc4TzR" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" />
-  </a>
-  <a href="https://www.producthunt.com/products/new-api/launches/new-api?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-new-api" target="_blank" rel="noopener noreferrer">
+  </a><!--
+  --><a href="https://www.producthunt.com/products/new-api/launches/new-api?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-new-api" target="_blank" rel="noopener noreferrer">
     <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1047693&theme=light&t=1769577875005" alt="New API - All-in-one AI asset management gateway. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" />
   </a>
 </p>
@@ -70,17 +70,20 @@
 <p align="center">
   <a href="https://www.cherry-ai.com/" target="_blank">
     <img src="./docs/images/cherry-studio.png" alt="Cherry Studio" height="80" />
-  </a>
-  <a href="https://bda.pku.edu.cn/" target="_blank">
+  </a><!--
+  --><a href="https://github.com/iOfficeAI/AionUi/" target="_blank">
+    <img src="./docs/images/aionui.png" alt="Aion UI" height="80" />
+  </a><!--
+  --><a href="https://bda.pku.edu.cn/" target="_blank">
     <img src="./docs/images/pku.png" alt="北京大學" height="80" />
-  </a>
-  <a href="https://www.compshare.cn/?ytag=GPU_yy_gh_newapi" target="_blank">
+  </a><!--
+  --><a href="https://www.compshare.cn/?ytag=GPU_yy_gh_newapi" target="_blank">
     <img src="./docs/images/ucloud.png" alt="UCloud 優刻得" height="80" />
-  </a>
-  <a href="https://www.aliyun.com/" target="_blank">
+  </a><!--
+  --><a href="https://www.aliyun.com/" target="_blank">
     <img src="./docs/images/aliyun.png" alt="阿里雲" height="80" />
-  </a>
-  <a href="https://io.net/" target="_blank">
+  </a><!--
+  --><a href="https://io.net/" target="_blank">
     <img src="./docs/images/io-net.png" alt="IO.NET" height="80" />
   </a>
 </p>
@@ -110,7 +113,7 @@
 git clone https://github.com/QuantumNous/new-api.git
 cd new-api
 
-# 編輯 docker-compose.yml 配置
+# 編輯 docker-compose.yml 設定
 nano docker-compose.yml
 
 # 啟動服務
@@ -140,7 +143,7 @@ docker run --name new-api -d --restart always \
   calciumion/new-api:latest
 ```
 
-> **💡 提示：** `-v ./data:/data` 會將數據保存在當前目錄的 `data` 資料夾中，你也可以改為絕對路徑如 `-v /your/custom/path:/data`
+> **💡 提示：** `-v ./data:/data` 會將資料儲存在當前目錄的 `data` 資料夾中，你也可以改為絕對路徑如 `-v /your/custom/path:/data`
 
 </details>
 
@@ -165,7 +168,7 @@ docker run --name new-api -d --restart always \
 | 分類 | 連結 |
 |------|------|
 | 🚀 部署指南 | [安裝文件](https://docs.newapi.pro/zh/docs/installation) |
-| ⚙️ 環境配置 | [環境變數](https://docs.newapi.pro/zh/docs/installation/config-maintenance/environment-variables) |
+| ⚙️ 環境設定 | [環境變數](https://docs.newapi.pro/zh/docs/installation/config-maintenance/environment-variables) |
 | 📡 接口文件 | [API 文件](https://docs.newapi.pro/zh/docs/api) |
 | ❓ 常見問題 | [FAQ](https://docs.newapi.pro/zh/docs/support/faq) |
 | 💬 社群交流 | [交流管道](https://docs.newapi.pro/zh/docs/support/community-interaction) |
@@ -180,24 +183,24 @@ docker run --name new-api -d --restart always \
 
 | 特性 | 說明 |
 |------|------|
-| 🎨 全新 UI | 現代化的用戶界面設計 |
-| 🌍 多語言 | 支援簡體中文、繁體中文、英文、法語、日語 |
-| 🔄 數據兼容 | 完全兼容原版 One API 資料庫 |
-| 📈 數據看板 | 視覺化控制檯與統計分析 |
-| 🔒 權限管理 | 令牌分組、模型限制、用戶管理 |
+| 🎨 全新 UI | 現代化的使用者界面設計 |
+| 🌍 多語言 | 支援中文、英文、法語、日語 |
+| 🔄 資料相容 | 完全相容原版 One API 資料庫 |
+| 📈 資料看板 | 視覺化控制檯與統計分析 |
+| 🔒 權限管理 | 令牌分組、模型限制、使用者管理 |
 
 ### 💰 支付與計費
 
-- ✅ 在線儲值（易支付、Stripe）
+- ✅ 線上儲值（易支付、Stripe）
 - ✅ 模型按次數收費
 - ✅ 快取計費支援（OpenAI、Azure、DeepSeek、Claude、Qwen等所有支援的模型）
-- ✅ 靈活的計費策略配置
+- ✅ 靈活的計費策略設定
 
 ### 🔐 授權與安全
 
-- 😈 Discord 授權登錄
-- 🤖 LinuxDO 授權登錄
-- 📱 Telegram 授權登錄
+- 😈 Discord 授權登入
+- 🤖 LinuxDO 授權登入
+- 📱 Telegram 授權登入
 - 🔑 OIDC 統一認證
 - 🔍 Key 查詢使用額度（配合 [neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool)）
 
@@ -213,7 +216,7 @@ docker run --name new-api -d --restart always \
 **智慧路由：**
 - ⚖️ 管道加權隨機
 - 🔄 失敗自動重試
-- 🚦 用戶級別模型限流
+- 🚦 使用者級別模型限流
 
 **格式轉換：**
 - 🔄 **OpenAI Compatible ⇄ Claude Messages**
@@ -225,7 +228,7 @@ docker run --name new-api -d --restart always \
 **Reasoning Effort 支援：**
 
 <details>
-<summary>查看詳細配置</summary>
+<summary>查看詳細設定</summary>
 
 **OpenAI 系列模型：**
 - `o3-mini-high` - High reasoning effort
@@ -242,8 +245,8 @@ docker run --name new-api -d --restart always \
 - `gemini-2.5-flash-thinking` - 啟用思考模式
 - `gemini-2.5-flash-nothinking` - 禁用思考模式
 - `gemini-2.5-pro-thinking` - 啟用思考模式
-- `gemini-2.5-pro-thinking-128` - 啟用思考模式，並設置思考預算為128tokens
-- 也可以直接在 Gemini 模型名稱後追加 `-low` / `-medium` / `-high` 來控制思考力道（無需再設置思考預算後綴）
+- `gemini-2.5-pro-thinking-128` - 啟用思考模式，並設定思考預算為128tokens
+- 也可以直接在 Gemini 模型名稱後追加 `-low` / `-medium` / `-high` 來控制思考力道（無需再設定思考預算後綴）
 
 </details>
 
@@ -255,7 +258,7 @@ docker run --name new-api -d --restart always \
 
 | 模型類型 | 說明 | 文件 |
 |---------|------|------|
-| 🤖 OpenAI-Compatible | OpenAI 兼容模型 | [文件](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/createchatcompletion) |
+| 🤖 OpenAI-Compatible | OpenAI 相容模型 | [文件](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/createchatcompletion) |
 | 🤖 OpenAI Responses | OpenAI Responses 格式 | [文件](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/createresponse) |
 | 🎨 Midjourney-Proxy | [Midjourney-Proxy(Plus)](https://github.com/novicezk/midjourney-proxy) | [文件](https://doc.newapi.pro/api/midjourney-proxy-image) |
 | 🎵 Suno-API | [Suno API](https://github.com/Suno-API/Suno-API) | [文件](https://doc.newapi.pro/api/suno-music) |
@@ -298,10 +301,10 @@ docker run --name new-api -d --restart always \
 | **遠端資料庫** | MySQL ≥ 5.7.8 或 PostgreSQL ≥ 9.6 |
 | **容器引擎** | Docker / Docker Compose |
 
-### ⚙️ 環境變數配置
+### ⚙️ 環境變數設定
 
 <details>
-<summary>常用環境變數配置</summary>
+<summary>常用環境變數設定</summary>
 
 | 變數名 | 說明                                                           | 預設值 |
 |--------|--------------------------------------------------------------|--------|
@@ -316,13 +319,13 @@ docker run --name new-api -d --restart always \
 | `ERROR_LOG_ENABLED` | 錯誤日誌開關                                                       | `false` |
 | `PYROSCOPE_URL` | Pyroscope 服務位址                                            | - |
 | `PYROSCOPE_APP_NAME` | Pyroscope 應用名                                        | `new-api` |
-| `PYROSCOPE_BASIC_AUTH_USER` | Pyroscope Basic Auth 用戶名                        | - |
+| `PYROSCOPE_BASIC_AUTH_USER` | Pyroscope Basic Auth 使用者名稱                        | - |
 | `PYROSCOPE_BASIC_AUTH_PASSWORD` | Pyroscope Basic Auth 密碼                  | - |
 | `PYROSCOPE_MUTEX_RATE` | Pyroscope mutex 採樣率                               | `5` |
 | `PYROSCOPE_BLOCK_RATE` | Pyroscope block 採樣率                               | `5` |
 | `HOSTNAME` | Pyroscope 標籤裡的主機名                                          | `new-api` |
 
-📖 **完整配置：** [環境變數文件](https://docs.newapi.pro/zh/docs/installation/config-maintenance/environment-variables)
+📖 **完整設定：** [環境變數文件](https://docs.newapi.pro/zh/docs/installation/config-maintenance/environment-variables)
 
 </details>
 
@@ -336,7 +339,7 @@ docker run --name new-api -d --restart always \
 git clone https://github.com/QuantumNous/new-api.git
 cd new-api
 
-# 編輯配置
+# 編輯設定
 nano docker-compose.yml
 
 # 啟動服務
@@ -368,7 +371,7 @@ docker run --name new-api -d --restart always \
 ```
 
 > **💡 路徑說明：**
-> - `./data:/data` - 相對路徑，數據保存在當前目錄的 data 資料夾
+> - `./data:/data` - 相對路徑，資料儲存在當前目錄的 data 資料夾
 > - 也可使用絕對路徑，如：`/your/custom/path:/data`
 
 </details>
@@ -387,14 +390,14 @@ docker run --name new-api -d --restart always \
 ### ⚠️ 多機部署注意事項
 
 > [!WARNING]
-> - **必須設置** `SESSION_SECRET` - 否則登錄狀態不一致
-> - **公用 Redis 必須設置** `CRYPTO_SECRET` - 否則數據無法解密
+> - **必須設定** `SESSION_SECRET` - 否則登入狀態不一致
+> - **公用 Redis 必須設定** `CRYPTO_SECRET` - 否則資料無法解密
 
 ### 🔄 管道重試與快取
 
-**重試配置：** `設置 → 運營設置 → 通用設置 → 失敗重試次數`
+**重試設定：** `設定 → 營運設定 → 通用設定 → 失敗重試次數`
 
-**快取配置：**
+**快取設定：**
 - `REDIS_CONN_STRING`：Redis 快取（推薦）
 - `MEMORY_CACHE_ENABLED`：記憶體快取
 
