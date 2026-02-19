@@ -245,8 +245,8 @@ docker run --name new-api -d --restart always \
 - `gemini-2.5-flash-thinking` - 啟用思考模式
 - `gemini-2.5-flash-nothinking` - 禁用思考模式
 - `gemini-2.5-pro-thinking` - 啟用思考模式
-- `gemini-2.5-pro-thinking-128` - 啟用思考模式，並設定思考預算為128tokens
-- 也可以直接在 Gemini 模型名稱後追加 `-low` / `-medium` / `-high` 來控制思考力道（無需再設定思考預算後綴）
+- `gemini-2.5-pro-thinking-128` - 啟用思考模式，並設定思考預算為 128 tokens
+- 也可以直接在 Gemini 模型名稱後追加 `-low` / `-medium` / `-high` 來控制思考強度（無需再設定思考預算後綴）
 
 </details>
 
@@ -274,7 +274,7 @@ docker run --name new-api -d --restart always \
 <summary>查看完整接口列表</summary>
 
 - [聊天接口 (Chat Completions)](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/createchatcompletion)
-- [響應接口 (Responses)](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/createresponse)
+- [回應接口 (Responses)](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/createresponse)
 - [圖像接口 (Image)](https://docs.newapi.pro/zh/docs/api/ai-model/images/openai/post-v1-images-generations)
 - [音訊接口 (Audio)](https://docs.newapi.pro/zh/docs/api/ai-model/audio/openai/create-transcription)
 - [影片接口 (Video)](https://docs.newapi.pro/zh/docs/api/ai-model/audio/openai/createspeech)
